@@ -9,8 +9,7 @@ class Header extends React.Component {
                     <ol className="breadcrumb">
                         <li className="breadcrumb-item active" aria-current="page"><Link to="/"><b>App with Axios</b></Link></li>
                         <li className="breadcrumb-item active" aria-current="page"><Link to="/post">Post</Link></li>
-                        <li className="breadcrumb-item active" aria-current="page"><a href="">Update</a></li>
-                        <li className="breadcrumb-item active" aria-current="page"><a href="">Delete</a></li>
+                        <li className="breadcrumb-item active" aria-current="page"><a href="/delete">Delete</a></li>
                     </ol>
                 </nav>
             </div>
